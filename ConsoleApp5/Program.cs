@@ -11,16 +11,16 @@ namespace ConsoleApp3
     {
         Double a, b, c;
 
-        public static IAppDomainSetup (Double[] args)
+        public static main (Double[] args)
         {
 
-            Console.WriteLine("Ввыедите число a");
+            Console.WriteLine("Введите число a");
             //string x = Console.ReadLine();
             a = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Ввыедите число b");
+            Console.WriteLine("Введите число b");
             //string y = Console.ReadLine();
             b = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine("Ввыедите число c");
+            Console.WriteLine("Введите число c");
             //string z = Console.ReadLine();
             c = Convert.ToDouble(Console.ReadLine());
 
